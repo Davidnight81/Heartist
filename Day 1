@@ -1,0 +1,35 @@
+print("Salut, mon nom est Heartist")
+name = input("quel est ton nom?")
+age = input("Et quel âge as-tu?")
+print("Heureux de te rencontrer " + name + "! " + age + ", wahou! Tu sembles beaucoup plus jeune que ton âge")
+project_start = input("sur une échelle de 1 à 10, penses-tu me connaître?")
+#project_start = 1
+#project_start = 2
+#project_start = 3
+#project_start = 4
+#project_start = 5
+#project_start = 6
+#project_start = 7
+#project_start = 8
+#project_start = 9
+#project_start = 10
+if project_start is 1:
+    print("Ouch! Mon petit coeur en prend un coup... Nous devons absolument faire connaissance")
+elif project_start is 2:
+    print("Loin des yeux, loin du coeur... C'est l'occasion de mieux nous connaître!")
+elif project_start is 3:
+    print("Je sens mon petit coeur battre, tu as déjà entendu parler de moi")
+elif project_start is 4:
+    print("Pourquoi s'arrêter en si bon chemin, tu varras, je suis super sympa")
+elif project_start is 5:
+    print("Super, tu me connais mais nous ne sommes pas encore amis. Nous devons passer plus de temps ensemble")
+elif project_start is 6:
+    print("Trop cool, tu me connais déjà bien, ne nous arrêtons pas en si bon chemin")
+elif project_start is 7:
+    print("Génial! Et dire que nous discutons pour la première fois")
+elif project_start is 8:
+    print("Incroyable, je me sens pousser des ailes :-)")
+elif project_start is 9:
+    print("Je suis tellement heureux, nous allons faire de grandes choses avec ton aide")
+else:
+    print("Toi + moi et tous ceux qui le veulent... Pardon, je chante quand je suis heureux lol")
